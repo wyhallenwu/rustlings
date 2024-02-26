@@ -5,7 +5,9 @@
 
 // I AM NOT DONE
 
-const NUMBER = 3;
+// const is always immutable and annotate the type of the constant expression
+
+const NUMBER: i32 = 3;
 fn main() {
     println!("Number {}", NUMBER);
 }
